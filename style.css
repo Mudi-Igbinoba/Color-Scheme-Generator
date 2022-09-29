@@ -1,0 +1,149 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+input,
+select,
+option,
+button {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+select {
+    appearance: none;
+    background-image: url(selector.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 97%;
+    background-position-y: center;
+}
+
+body {
+    background-color: #1c1c1c;
+    height: 100vh;
+}
+
+main {
+    padding: 3em 0;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    max-width: 550px;
+    min-height: 500px;
+    background-color: #1f2937;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Form */
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 0.8em;
+    box-shadow: 0px 10px 4px rgb(36, 37, 38);
+    z-index: 1000;
+}
+
+#colorPicker {
+    padding: 0;
+    width: 55px;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+}
+
+#modePicker {
+    width: 312px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 0.7em;
+    background-color: #1f2937;
+    color: #d5d4d8;
+    font-weight: 500;
+}
+
+#form button {
+    background-color: #3d4b60;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 0.7em 0.8em;
+}
+
+@media (max-width: 690px) {
+    #modePicker {
+        width: 40%;
+    }
+}
+
+@media (max-width: 450px) {
+    #modePicker {
+        width: 30%;
+    }
+}
+
+/* Color Scheme */
+#colorScheme {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #d5d4d8;
+    font-size: 13px;
+}
+
+#colorScheme .bg-color {
+    height: 380px;
+    width: 20%;
+}
+
+#colorScheme .instructions {
+    margin: 5em 0;
+}
+
+#colorScheme ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#colorScheme li {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+#colorScheme .color {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+#colorScheme .color-code {
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    /* #colorScheme .bg-color {
+        height: 400px;
+    } */
+}
