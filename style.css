@@ -50,9 +50,12 @@ main {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    main {
+        padding: 1em 0;
+    }
     .container {
-        max-width: 90%;
+        max-width: 95%;
     }
 }
 
@@ -98,12 +101,6 @@ main {
     }
 }
 
-@media (max-width: 450px) {
-    #modePicker {
-        width: 30%;
-    }
-}
-
 /* Color Scheme */
 #colorScheme {
     display: flex;
@@ -140,10 +137,9 @@ main {
 
 #colorScheme .color-code {
     cursor: pointer;
+    transition: 500ms;
 }
 
-@media (max-width: 500px) {
-    /* #colorScheme .bg-color {
-        height: 400px;
-    } */
+#colorScheme .color-code:hover {
+    font-weight: 700;
 }

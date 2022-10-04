@@ -16,12 +16,14 @@ const copyColorAndCodes = () => {
     displayedColor.forEach((e) => {
         e.addEventListener('click', () => {
             navigator.clipboard.writeText(e.style.backgroundColor);
+            alert(`Color code: ${e.style.backgroundColor} has been copied`);
         });
     });
 
     displayedColorCodes.forEach((e) => {
         e.addEventListener('click', () => {
             navigator.clipboard.writeText(e.textContent);
+            alert(`Color code: ${e.textContent} has been copied`);
         });
     });
 };
