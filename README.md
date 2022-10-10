@@ -8,7 +8,6 @@ A color scheme generator built with JS and the Color API
 - Copy a hex code when clicked on or when the color itself is clicked on
 
 ### Screenshot
-- Homepage
-![download](https://user-images.githubusercontent.com/65790714/193676669-8930d839-f4e3-4c23-a64f-8c794fcab6a0.jpg)
-- Watchlist
-![download](https://user-images.githubusercontent.com/65790714/193676698-64adfd7c-0a67-4b5c-84cd-98ccba7a7e51.jpg)
+![download](https://user-images.githubusercontent.com/65790714/194852193-d1322d62-a1eb-47f6-abca-119dd97d54de.jpg)
+![download](https://user-images.githubusercontent.com/65790714/194852203-143f40e5-a529-47f9-bad0-fe7096cfffe4.jpg)
+
